@@ -1,0 +1,34 @@
+{
+  "development": {
+    "web_server":         {
+      "ip":               "192.168.1.34",
+      "port":             3000
+    },
+    "db_server":          {
+      "ip":               "192.168.1.34",
+      "port":             47017
+    },
+    "s3":                 {
+      "access_key_id":    "Access Key",
+      "secret_key_id":    "Secret Key",
+      "bucket":           "project-dev",
+      "domain":           "https://static-dev.project.com/"
+    }
+  },
+  "production": {
+    "web_server":         {
+      "ip":               "88.14.139.46",
+      "port":             4000
+    },
+    "db_server":          {
+      "ip":               "88.14.139.46",
+      "port":             68012
+    },
+    "s3":                 {
+      "access_key_id":    "Access Key",
+      "secret_key_id":    "Secret Key",
+      "bucket":           "project-master",
+      "domain":           "https://static.project.com/"
+    }
+  }
+}

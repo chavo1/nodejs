@@ -1,3 +1,10 @@
+var env = require(__dirname + '/config.json');
+var config;
+if (process.env.NODE_ENV === undefined)
+  config = env.development;
+else
+  config = env[process.env.NODE_ENV];
+
 const http = require('http');
 
 const hostname = '192.168.56.56';
