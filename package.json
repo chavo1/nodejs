@@ -1,0 +1,13 @@
+{
+  "name": "project",
+  "description": "My first project with Node.js",
+  "version": "0.0.1",
+  "author": "John Doe <john@doe.net>",
+  "dependencies": {
+    "express": "^4.2.0",
+    "lodash": "^2.4.1",
+    "moment": "^2.10.3",
+    "mongoose": "3.8.23",
+    "passport": "^0.2.0"
+  }
+}
