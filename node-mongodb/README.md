@@ -13,7 +13,7 @@ This Vagrant machine contains:
 
 ```
 git clone https://github.com/chavo1/nodejs.git
-cd nodejs
+cd nodejs/node-mongodb
 vagrant up
 ```
 
