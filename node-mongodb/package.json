@@ -1,8 +1,7 @@
 
   {
     "repository" : {     
-    "type" : "git",
-     "url" : "http://github.com/npm/express.git" 
+    "type" : "git"
   },
   "name": "src",
   "version": "1.0.0",
